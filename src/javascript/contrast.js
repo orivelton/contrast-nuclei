@@ -1,8 +1,3 @@
-import { maria } from "./alert";
-
-maria();
-
-
 const typeOfContrast = (dataContrast) => {
   const type = Number(dataContrast);
   switch (type) {
