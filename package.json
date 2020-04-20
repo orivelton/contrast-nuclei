@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/orivelton/contrast-nuclei/issues"
   },
-  "homepage": "https://github.com/orivelton/contrast-nuclei#readme"
+  "homepage": "https://github.com/orivelton/contrast-nuclei#readme",
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
