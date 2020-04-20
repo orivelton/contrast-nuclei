@@ -1,0 +1,19 @@
+{
+  "name": "contrast-nuclei",
+  "version": "0.0.0",
+  "description": "Contrast Nuclei",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orivelton/contrast-nuclei.git"
+  },
+  "author": "https://github.com/orivelton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orivelton/contrast-nuclei/issues"
+  },
+  "homepage": "https://github.com/orivelton/contrast-nuclei#readme"
+}
