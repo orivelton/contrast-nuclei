@@ -1,0 +1,42 @@
+{
+  "name": "contrast-nuclei",
+  "version": "0.0.0",
+  "description": "Contrast Nuclei",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server -d --progress --color --open --config webpack.config.js",
+    "build": "webpack -p --progress --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orivelton/contrast-nuclei.git"
+  },
+  "author": "https://github.com/orivelton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orivelton/contrast-nuclei/issues"
+  },
+  "homepage": "https://github.com/orivelton/contrast-nuclei#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
